@@ -1,5 +1,7 @@
-package com.example.compose
+package com.example.minhacarteirinhadigitalsenai.ui.theme
+
 import androidx.compose.ui.graphics.Color
+
 
 val primaryLight = Color(0xFF4C662B)
 val onPrimaryLight = Color(0xFFFFFFFF)
