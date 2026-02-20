@@ -40,6 +40,7 @@ android {
 }
 
 dependencies {
+    implementation("com.google.zxing:core:3.5.3")
     implementation("androidx.compose.ui:ui-text-google-fonts:1.7.0") // Use a versão mais recente
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

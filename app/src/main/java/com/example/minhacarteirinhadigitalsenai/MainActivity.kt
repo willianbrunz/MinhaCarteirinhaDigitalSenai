@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.minhacarteirinhadigitalsenai.ui.theme.MinhaCarteirinhaDigitalSenaiTheme
+import com.rafaelcosta.myapplication.QrCode
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -63,5 +64,6 @@ fun CarteirinhaDeEstudante(modifier: Modifier = Modifier) {
                 style = MaterialTheme.typography.bodyMedium
             )
         }
+        QrCode("90000000001417349450")
     }
 }
